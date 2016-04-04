@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF5C06001CB3276100D874B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5C05FF1CB3276100D874B8 /* main.m */; };
+		FF5C06031CB3276100D874B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5C06021CB3276100D874B8 /* AppDelegate.m */; };
+		FF5C06061CB3276100D874B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5C06051CB3276100D874B8 /* ViewController.m */; };
+		FF5C06091CB3276100D874B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5C06071CB3276100D874B8 /* Main.storyboard */; };
+		FF5C060B1CB3276100D874B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5C060A1CB3276100D874B8 /* Assets.xcassets */; };
+		FF5C060E1CB3276100D874B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5C060C1CB3276100D874B8 /* LaunchScreen.storyboard */; };
+		FF5C06131CB3276100D874B8 /* DimiMeal WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FF5C06121CB3276100D874B8 /* DimiMeal WatchKit App.app */; };
+		FF5C06191CB3276100D874B8 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5C06171CB3276100D874B8 /* Interface.storyboard */; };
+		FF5C061B1CB3276100D874B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5C061A1CB3276100D874B8 /* Assets.xcassets */; };
+		FF5C06221CB3276100D874B8 /* DimiMeal WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FF5C06211CB3276100D874B8 /* DimiMeal WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FF5C06281CB3276100D874B8 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5C06271CB3276100D874B8 /* InterfaceController.m */; };
+		FF5C062B1CB3276100D874B8 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5C062A1CB3276100D874B8 /* ExtensionDelegate.m */; };
+		FF5C062D1CB3276100D874B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5C062C1CB3276100D874B8 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF5C06141CB3276100D874B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF5C05F31CB3276100D874B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF5C06111CB3276100D874B8;
+			remoteInfo = "DimiMeal WatchKit App";
+		};
+		FF5C06231CB3276100D874B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF5C05F31CB3276100D874B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF5C06201CB3276100D874B8;
+			remoteInfo = "DimiMeal WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF5C06341CB3276100D874B8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FF5C06221CB3276100D874B8 /* DimiMeal WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5C06381CB3276100D874B8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FF5C06131CB3276100D874B8 /* DimiMeal WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF5C05FB1CB3276100D874B8 /* DimiMeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DimiMeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5C05FF1CB3276100D874B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF5C06011CB3276100D874B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF5C06021CB3276100D874B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF5C06041CB3276100D874B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF5C06051CB3276100D874B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF5C06081CB3276100D874B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF5C060A1CB3276100D874B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF5C060D1CB3276100D874B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF5C060F1CB3276100D874B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF5C06121CB3276100D874B8 /* DimiMeal WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DimiMeal WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5C06181CB3276100D874B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FF5C061A1CB3276100D874B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF5C061C1CB3276100D874B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF5C06211CB3276100D874B8 /* DimiMeal WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DimiMeal WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5C06261CB3276100D874B8 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		FF5C06271CB3276100D874B8 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		FF5C06291CB3276100D874B8 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		FF5C062A1CB3276100D874B8 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		FF5C062C1CB3276100D874B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF5C062E1CB3276100D874B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF5C05F81CB3276100D874B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5C061E1CB3276100D874B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF5C05F21CB3276100D874B8 = {
+			isa = PBXGroup;
+			children = (
+				FF5C05FD1CB3276100D874B8 /* DimiMeal */,
+				FF5C06161CB3276100D874B8 /* DimiMeal WatchKit App */,
+				FF5C06251CB3276100D874B8 /* DimiMeal WatchKit Extension */,
+				FF5C05FC1CB3276100D874B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF5C05FC1CB3276100D874B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF5C05FB1CB3276100D874B8 /* DimiMeal.app */,
+				FF5C06121CB3276100D874B8 /* DimiMeal WatchKit App.app */,
+				FF5C06211CB3276100D874B8 /* DimiMeal WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF5C05FD1CB3276100D874B8 /* DimiMeal */ = {
+			isa = PBXGroup;
+			children = (
+				FF5C06011CB3276100D874B8 /* AppDelegate.h */,
+				FF5C06021CB3276100D874B8 /* AppDelegate.m */,
+				FF5C06041CB3276100D874B8 /* ViewController.h */,
+				FF5C06051CB3276100D874B8 /* ViewController.m */,
+				FF5C06071CB3276100D874B8 /* Main.storyboard */,
+				FF5C060A1CB3276100D874B8 /* Assets.xcassets */,
+				FF5C060C1CB3276100D874B8 /* LaunchScreen.storyboard */,
+				FF5C060F1CB3276100D874B8 /* Info.plist */,
+				FF5C05FE1CB3276100D874B8 /* Supporting Files */,
+			);
+			path = DimiMeal;
+			sourceTree = "<group>";
+		};
+		FF5C05FE1CB3276100D874B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF5C05FF1CB3276100D874B8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF5C06161CB3276100D874B8 /* DimiMeal WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FF5C06171CB3276100D874B8 /* Interface.storyboard */,
+				FF5C061A1CB3276100D874B8 /* Assets.xcassets */,
+				FF5C061C1CB3276100D874B8 /* Info.plist */,
+			);
+			path = "DimiMeal WatchKit App";
+			sourceTree = "<group>";
+		};
+		FF5C06251CB3276100D874B8 /* DimiMeal WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FF5C06261CB3276100D874B8 /* InterfaceController.h */,
+				FF5C06271CB3276100D874B8 /* InterfaceController.m */,
+				FF5C06291CB3276100D874B8 /* ExtensionDelegate.h */,
+				FF5C062A1CB3276100D874B8 /* ExtensionDelegate.m */,
+				FF5C062C1CB3276100D874B8 /* Assets.xcassets */,
+				FF5C062E1CB3276100D874B8 /* Info.plist */,
+			);
+			path = "DimiMeal WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF5C05FA1CB3276100D874B8 /* DimiMeal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF5C06391CB3276100D874B8 /* Build configuration list for PBXNativeTarget "DimiMeal" */;
+			buildPhases = (
+				FF5C05F71CB3276100D874B8 /* Sources */,
+				FF5C05F81CB3276100D874B8 /* Frameworks */,
+				FF5C05F91CB3276100D874B8 /* Resources */,
+				FF5C06381CB3276100D874B8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF5C06151CB3276100D874B8 /* PBXTargetDependency */,
+			);
+			name = DimiMeal;
+			productName = DimiMeal;
+			productReference = FF5C05FB1CB3276100D874B8 /* DimiMeal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF5C06111CB3276100D874B8 /* DimiMeal WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF5C06351CB3276100D874B8 /* Build configuration list for PBXNativeTarget "DimiMeal WatchKit App" */;
+			buildPhases = (
+				FF5C06101CB3276100D874B8 /* Resources */,
+				FF5C06341CB3276100D874B8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF5C06241CB3276100D874B8 /* PBXTargetDependency */,
+			);
+			name = "DimiMeal WatchKit App";
+			productName = "DimiMeal WatchKit App";
+			productReference = FF5C06121CB3276100D874B8 /* DimiMeal WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		FF5C06201CB3276100D874B8 /* DimiMeal WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF5C06311CB3276100D874B8 /* Build configuration list for PBXNativeTarget "DimiMeal WatchKit Extension" */;
+			buildPhases = (
+				FF5C061D1CB3276100D874B8 /* Sources */,
+				FF5C061E1CB3276100D874B8 /* Frameworks */,
+				FF5C061F1CB3276100D874B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DimiMeal WatchKit Extension";
+			productName = "DimiMeal WatchKit Extension";
+			productReference = FF5C06211CB3276100D874B8 /* DimiMeal WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF5C05F31CB3276100D874B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Alfred Woo";
+				TargetAttributes = {
+					FF5C05FA1CB3276100D874B8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FF5C06111CB3276100D874B8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FF5C06201CB3276100D874B8 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = FF5C05F61CB3276100D874B8 /* Build configuration list for PBXProject "DimiMeal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF5C05F21CB3276100D874B8;
+			productRefGroup = FF5C05FC1CB3276100D874B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF5C05FA1CB3276100D874B8 /* DimiMeal */,
+				FF5C06111CB3276100D874B8 /* DimiMeal WatchKit App */,
+				FF5C06201CB3276100D874B8 /* DimiMeal WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF5C05F91CB3276100D874B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5C060E1CB3276100D874B8 /* LaunchScreen.storyboard in Resources */,
+				FF5C060B1CB3276100D874B8 /* Assets.xcassets in Resources */,
+				FF5C06091CB3276100D874B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5C06101CB3276100D874B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5C061B1CB3276100D874B8 /* Assets.xcassets in Resources */,
+				FF5C06191CB3276100D874B8 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5C061F1CB3276100D874B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5C062D1CB3276100D874B8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF5C05F71CB3276100D874B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5C06061CB3276100D874B8 /* ViewController.m in Sources */,
+				FF5C06031CB3276100D874B8 /* AppDelegate.m in Sources */,
+				FF5C06001CB3276100D874B8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF5C061D1CB3276100D874B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5C062B1CB3276100D874B8 /* ExtensionDelegate.m in Sources */,
+				FF5C06281CB3276100D874B8 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF5C06151CB3276100D874B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF5C06111CB3276100D874B8 /* DimiMeal WatchKit App */;
+			targetProxy = FF5C06141CB3276100D874B8 /* PBXContainerItemProxy */;
+		};
+		FF5C06241CB3276100D874B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF5C06201CB3276100D874B8 /* DimiMeal WatchKit Extension */;
+			targetProxy = FF5C06231CB3276100D874B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF5C06071CB3276100D874B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF5C06081CB3276100D874B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF5C060C1CB3276100D874B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF5C060D1CB3276100D874B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FF5C06171CB3276100D874B8 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF5C06181CB3276100D874B8 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF5C062F1CB3276100D874B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF5C06301CB3276100D874B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF5C06321CB3276100D874B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "DimiMeal WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.alfred.DimiMeal.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		FF5C06331CB3276100D874B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "DimiMeal WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.alfred.DimiMeal.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		FF5C06361CB3276100D874B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = DimiMeal_WatchKit_Extension;
+				INFOPLIST_FILE = "DimiMeal WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.alfred.DimiMeal.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		FF5C06371CB3276100D874B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = DimiMeal_WatchKit_Extension;
+				INFOPLIST_FILE = "DimiMeal WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.alfred.DimiMeal.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		FF5C063A1CB3276100D874B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DimiMeal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.alfred.DimiMeal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF5C063B1CB3276100D874B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DimiMeal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.alfred.DimiMeal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF5C05F61CB3276100D874B8 /* Build configuration list for PBXProject "DimiMeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5C062F1CB3276100D874B8 /* Debug */,
+				FF5C06301CB3276100D874B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF5C06311CB3276100D874B8 /* Build configuration list for PBXNativeTarget "DimiMeal WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5C06321CB3276100D874B8 /* Debug */,
+				FF5C06331CB3276100D874B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF5C06351CB3276100D874B8 /* Build configuration list for PBXNativeTarget "DimiMeal WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5C06361CB3276100D874B8 /* Debug */,
+				FF5C06371CB3276100D874B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF5C06391CB3276100D874B8 /* Build configuration list for PBXNativeTarget "DimiMeal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5C063A1CB3276100D874B8 /* Debug */,
+				FF5C063B1CB3276100D874B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF5C05F31CB3276100D874B8 /* Project object */;
+}
