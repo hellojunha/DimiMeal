@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WatchConnectivity/WatchConnectivity.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <WCSessionDelegate>
 
+@property IBOutlet UILabel *label;
 
 @end
 

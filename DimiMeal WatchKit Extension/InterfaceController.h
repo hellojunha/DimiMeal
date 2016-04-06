@@ -8,7 +8,11 @@
 
 #import <WatchKit/WatchKit.h>
 #import <Foundation/Foundation.h>
+#import <WatchConnectivity/WatchConnectivity.h>
 
-@interface InterfaceController : WKInterfaceController
+@interface InterfaceController : WKInterfaceController <WCSessionDelegate>
+
+@property IBOutlet WKInterfaceLabel *meal_label;
+@property WCSession *watch_session;
 
 @end
