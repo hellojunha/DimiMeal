@@ -65,6 +65,7 @@
                       
                       NSString *date = [json valueForKey:@"date"];
                       date = [NSString stringWithFormat:@"%@ %@", [date substringFromIndex:5], localized_load];
+                      date = [date stringByReplacingOccurrencesOfString:@"-" withString:@"/"];
                       NSString *meal_menu = [json valueForKey:load];
                       meal_menu = [meal_menu stringByReplacingOccurrencesOfString:@"/" withString:@"\n"];
                       
