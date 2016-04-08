@@ -22,20 +22,32 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="20" y="20" width="360" height="21"/>
+                                <variation key="widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="69" y="289" width="263" height="21"/>
                                 </variation>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="C0p-pi-1J6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="PeZ-fw-MkO"/>
+                            <constraint firstItem="C0p-pi-1J6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="a3B-BT-fqY"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="C0p-pi-1J6"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="PeZ-fw-MkO"/>
+                                <exclude reference="a3B-BT-fqY"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="C0p-pi-1J6"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="PeZ-fw-MkO"/>
+                                <include reference="a3B-BT-fqY"/>
                             </mask>
                         </variation>
                     </view>
